@@ -37,33 +37,22 @@ Next JS: Learn Next JS
   
 ## Description
 
-Basic front end App.  Just a sandbox for me to get better acquainted with NextJS, React dynamic page development, Tailwinds CSS...
+### Failed project
 
-Like every video before and I think going forward, the technology has outpaced the updates.  This weeks mismatch entails:
+This was an attempt to follow the Next JS tutorial 
 
-pnpm : File C:\Users\tronr\AppData\Roaming\npm\pnpm.ps1 cannot be loaded because running scripts is 
-disabled on this system. For more information, see about_Execution_Policies at 
-At line:1 char:1
-+ pnpm i 
+https://nextjs.org/learn/dashboard-app/setting-up-your-database
 
 
-this is fixed for now by :
-PS E:\Prog Environ\Basics\NextJS\Next1\nextjs-dashboard> set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-PS E:\Prog Environ\Basics\NextJS\Next1\nextjs-dashboard> Get-ExecutionPolicy
-RemoteSigned
-PS E:\Prog Environ\Basics\NextJS\Next1\nextjs-dashboard> 
-PS E:\Prog Environ\Basics\NextJS\Next1\nextjs-dashboard> Get-ExecutionPolicy -list
+Could not get past 48 sec of deployment, looking for a missing string.  Intructions on tutorial lack any information about editing .env file properly for this deployment.
 
-        Scope ExecutionPolicy
-        ----- ---------------
-MachinePolicy       Undefined
-   UserPolicy       Undefined
-      Process       Undefined
-  CurrentUser    RemoteSigned
- LocalMachine       Undefined
+Followed stack and other suggestions to no avail.  pnpm i vercel's cli and no good. crashing project. starting anew in another repo
+
+Will integrate Vercel CLI at initiation phase of app
 
 
-PS E:\Prog Environ\Basics\NextJS\Next1\nextjs-dashboard>
+
+
 
 ### Run instructions for basic build from Next JS
 
